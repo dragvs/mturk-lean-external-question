@@ -27,7 +27,7 @@ AWS_SECRET_ACCESS_KEY = config.AWS_SECRET_ACCESS_KEY
 
 # START IMPORTANT HIT VARIABLES
 sandbox = True
-base_url = ""
+base_url = config.LAYOUT_BASE_URL
 params_to_encode = {"ParameterToPass": "ValueToPass"}
 assignments_per_hit = 1
 payment_per_assignment = 0.05
