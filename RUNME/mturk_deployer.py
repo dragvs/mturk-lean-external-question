@@ -39,8 +39,8 @@ def deploy():
     # profile_name = sys.argv[1] if len(sys.argv) >= 2 else None
     session = boto3.Session(
         # profile_name=profile_name
-        aws_access_key_id=config.AWS_ACCESS_KEY_ID,
-        aws_secret_access_key=config.AWS_SECRET_ACCESS_KEY,
+        # aws_access_key_id=config.AWS_ACCESS_KEY_ID,
+        # aws_secret_access_key=config.AWS_SECRET_ACCESS_KEY,
         # aws_session_token=SESSION_TOKEN,
     )
     client = session.client(
